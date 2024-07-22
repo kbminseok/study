@@ -1,0 +1,114 @@
+
+
+class RANBLOG:
+    def __init__(self):
+        return None
+
+    def korea(self, ran):
+        kFood = [
+            # 김치찌개
+            'https://blog.naver.com/mj_hudadak/223494136932',
+            # 된장찌개
+            'https://blog.naver.com/peace8012/223495500311',
+            # 미역국
+            'https://blog.naver.com/peace8012/223491181911',
+            # 떡볶이
+            'https://blog.naver.com/mj_hudadak/223453534021',
+            # 김치볶음밥
+            'https://blog.naver.com/peace8012/223471907045'
+        ]
+        return kFood[ran]
+
+    def china(self, ran):
+        cFood = [
+            # 짜장면
+            'https://blog.naver.com/thswlsrnr928/223422501853',
+            # 짬뽕
+            'https://blog.naver.com/ppunwife/223489096949',
+            # 탕수육
+            'https://blog.naver.com/jangdaenam/223123650863',
+            # 양장피
+            'https://blog.naver.com/rty3350/223380777182',
+            # 마파두부
+            'https://blog.naver.com/howmany70/223496051757'
+        ]
+        return cFood[ran]
+
+    def japan(self, ran):
+        jFood = [
+            # 야끼소바
+            'https://blog.naver.com/peace8012/222960425433',
+            # 라멘
+            'https://blog.naver.com/lemong25/223405863609',
+            # 오꼬노미야끼
+            'https://blog.naver.com/naettee/223247661303',
+            # 우동
+            'https://blog.naver.com/limeshampoo/223322723986',
+            # 규동
+            'https://blog.naver.com/dew36/222905136054'
+        ]
+        return jFood[ran]
+
+    def yangsik(self, ran):
+        yFood = [
+            # 피자
+            'https://blog.naver.com/pig_1996/223446719574',
+            # 스테이크
+            'https://blog.naver.com/mj_hudadak/223491726396',
+            # 파스타
+            'https://blog.naver.com/pyask0702/223491684858',
+            # 햄버거
+            'https://blog.naver.com/ggumbbab/223463129377',
+            # 샐러드
+            'https://blog.naver.com/westside1472/223492365713'
+        ]
+        return yFood[ran]
+
+    def everything(self, ran):
+        allFood = [
+            # 한식
+            # 김치찌개
+            'https://blog.naver.com/mj_hudadak/223494136932',
+            # 된장찌개
+            'https://blog.naver.com/peace8012/223495500311',
+            # 미역국
+            'https://blog.naver.com/peace8012/223491181911',
+            # 떡볶이
+            'https://blog.naver.com/mj_hudadak/223453534021',
+            # 김치볶음밥
+            'https://blog.naver.com/peace8012/223471907045',
+            # 중식
+            # 짜장면
+            'https://blog.naver.com/thswlsrnr928/223422501853',
+            # 짬뽕
+            'https://blog.naver.com/ppunwife/223489096949',
+            # 탕수육
+            'https://blog.naver.com/jangdaenam/223123650863',
+            # 양장피
+            'https://blog.naver.com/rty3350/223380777182',
+            # 마파두부
+            'https://blog.naver.com/howmany70/223496051757',
+            # 일식
+            # 야끼소바
+            'https://blog.naver.com/peace8012/222960425433',
+            # 라멘
+            'https://blog.naver.com/lemong25/223405863609',
+            # 오꼬노미야끼
+            'https://blog.naver.com/naettee/223247661303',
+            # 우동
+            'https://blog.naver.com/limeshampoo/223322723986',
+            # 규동
+            'https://blog.naver.com/dew36/222905136054',
+            # 양식
+            # 피자
+            'https://blog.naver.com/pig_1996/223446719574',
+            # 스테이크
+            'https://blog.naver.com/mj_hudadak/223491726396',
+            # 파스타
+            'https://blog.naver.com/pyask0702/223491684858',
+            # 햄버거
+            'https://blog.naver.com/ggumbbab/223463129377',
+            # 샐러드
+            'https://blog.naver.com/westside1472/223492365713'
+        ]
+        return allFood[ran]

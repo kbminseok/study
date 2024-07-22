@@ -1,0 +1,114 @@
+
+
+class RANTUBE:
+    def __init__(self):
+        return None
+
+    def korea(self, ran):
+        kFood = [
+            # 김치찌개
+            'https://www.youtube.com/watch?v=qWbHSOplcvY',
+            # 된장찌개
+            'https://www.youtube.com/watch?v=ffuakdFmuh4',
+            # 미역국
+            'https://www.youtube.com/watch?v=xsTFsunt6-8',
+            # 떡볶이
+            'https://www.youtube.com/watch?v=t4Es8mwdYlE',
+            # 김치볶음밥
+            'https://www.youtube.com/watch?v=eIo2BaE6LxI'
+        ]
+        return kFood[ran]
+
+    def china(self, ran):
+        cFood = [
+            # 짜장면
+            'https://www.youtube.com/watch?v=tQUTkWfHdO8',
+            # 짬뽕
+            'https://www.youtube.com/watch?v=3FBKcTumM5w',
+            # 탕수육
+            'https://www.youtube.com/watch?v=mzZNNMM2WuQ',
+            # 양장피
+            'https://www.youtube.com/watch?v=j1I3dKRR6Xw',
+            # 마파두부
+            'https://www.youtube.com/watch?v=BqxpjY7TJ8g'
+        ]
+        return cFood[ran]
+
+    def japan(self, ran):
+        jFood = [
+            # 야끼소바
+            'https://www.youtube.com/watch?v=wLfpKYiptTE',
+            # 라멘
+            'https://www.youtube.com/watch?v=hM1Uns_o7HE',
+            # 오꼬노미야끼
+            'https://www.youtube.com/watch?v=9hjbPcz0atg',
+            # 우동
+            'https://www.youtube.com/watch?v=7PZcJcWXKaI',
+            # 규동
+            'https://www.youtube.com/watch?v=zXpznElExPI'
+        ]
+        return jFood[ran]
+
+    def yangsik(self, ran):
+        eFood = [
+            # 피자
+            'https://www.youtube.com/watch?v=QFTBQF5l0Ro',
+            # 스테이크
+            'https://www.youtube.com/watch?v=sWN2dxP4Vtw',
+            # 파스타
+            'https://www.youtube.com/watch?v=0bnFoRQebq0',
+            # 햄버거
+            'https://www.youtube.com/watch?v=GpEiUb20IFo',
+            # 샐러드
+            'https://www.youtube.com/watch?v=esI4baAIr-E'
+        ]
+        return eFood[ran]
+
+    def everything(self, ran):
+        allFood = [
+            # 한식
+            # 김치찌개
+            'https://www.youtube.com/watch?v=qWbHSOplcvY',
+            # 된장찌개
+            'https://www.youtube.com/watch?v=ffuakdFmuh4',
+            # 미역국
+            'https://www.youtube.com/watch?v=xsTFsunt6-8',
+            # 떡볶이
+            'https://www.youtube.com/watch?v=t4Es8mwdYlE',
+            # 김치볶음밥
+            'https://www.youtube.com/watch?v=eIo2BaE6LxI',
+            # 중식
+            # 짜장면
+            'https://www.youtube.com/watch?v=tQUTkWfHdO8',
+            # 짬뽕
+            'https://www.youtube.com/watch?v=3FBKcTumM5w',
+            # 탕수육
+            'https://www.youtube.com/watch?v=mzZNNMM2WuQ',
+            # 양장피
+            'https://www.youtube.com/watch?v=j1I3dKRR6Xw',
+            # 마파두부
+            'https://www.youtube.com/watch?v=BqxpjY7TJ8g',
+            # 일식
+            # 야끼소바
+            'https://www.youtube.com/watch?v=wLfpKYiptTE',
+            # 라멘
+            'https://www.youtube.com/watch?v=hM1Uns_o7HE',
+            # 오꼬노미야끼
+            'https://www.youtube.com/watch?v=9hjbPcz0atg',
+            # 우동
+            'https://www.youtube.com/watch?v=7PZcJcWXKaI',
+            # 규동
+            'https://www.youtube.com/watch?v=zXpznElExPI',
+            # 양식
+            # 피자
+            'https://www.youtube.com/watch?v=QFTBQF5l0Ro',
+            # 스테이크
+            'https://www.youtube.com/watch?v=sWN2dxP4Vtw',
+            # 파스타
+            'https://www.youtube.com/watch?v=0bnFoRQebq0',
+            # 햄버거
+            'https://www.youtube.com/watch?v=GpEiUb20IFo',
+            # 샐러드
+            'https://www.youtube.com/watch?v=esI4baAIr-E'
+        ]
+        return allFood[ran]

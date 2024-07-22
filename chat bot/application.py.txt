@@ -1,0 +1,530 @@
+from flask import Flask, request, jsonify
+import random
+import menu
+import youtube
+import blog
+import requests
+import re
+
+application = Flask(__name__)
+
+food = None
+menu = menu.MENU()
+youtube = youtube.RANTUBE()
+blog = blog.RANBLOG()
+
+# 레시피 검색
+@application.route("/search", methods=["POST"])
+def searchFood():
+    global food
+    req = request.get_json()
+    food = req["action"]["detailParams"]["음식명"]["value"]  # 대표 엔티티로 지정
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": f"{food} 레시피를 찾으세요?",
+                        "buttons": [
+                            {
+                                "action": "message",
+                                "label": "유튜브로 레시피 검색",
+                                "messageText": "유튜브로 검색"
+                            },
+                            {
+                                "action": "message",
+                                "label": "블로그로 레시피 검색",
+                                "messageText": "블로그로 검색"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 유튜브로 레시피 검색
+@application.route("/search_youtube", methods=["POST"])
+def searchYoutube():
+    global food
+
+    if food is None:  # 채팅에 바로 '유트브로 검색'을 입력했을 경우
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": "음식 이름이 설정되지 않았습니다. 음식 이름을 먼저 입력하세요"
+                        }
+                    }
+                ]
+            }
+        }
+        return jsonify(res)
+
+    elif food:
+        youtube_api_key = 'AIzaSyBjrpLekn1cPp0FfRn6_g6NRXOTgBwLJdM'
+        try:
+            response = requests.get('https://www.googleapis.com/youtube/v3/search', params={
+                'part': 'snippet',
+                'q': f"{food} 레시피",
+                'key': youtube_api_key,
+                'type': 'video',
+                'maxResults': 10  # 최대 결과 수, 필요에 따라 조정
+            })
+            search_results = response.json()['items']
+
+            if search_results:
+                video_ids = [item['id']['videoId'] for item in search_results]
+
+                response = requests.get('https://www.googleapis.com/youtube/v3/videos', params={
+                    'part': 'contentDetails,snippet',
+                    'id': ','.join(video_ids),
+                    'key': youtube_api_key
+                })
+                video_details = response.json()['items']
+
+                if video_details:
+                    cards = []
+                    for item in video_details:
+                        video_title = item['snippet']['title']
+                        video_thumbnail = item['snippet']['thumbnails']['default']['url']
+                        video_id = item['id']
+                        duration = item['contentDetails']['duration']
+
+                        # 영상 길이 측정
+                        match = re.match(r'PT(\d+H)?(\d+M)?(\d+S)?', duration)
+                        hours = int(match.group(1)[:-1]) if match.group(1) else 0
+                        minutes = int(match.group(2)[:-1]) if match.group(2) else 0
+                        seconds = int(match.group(3)[:-1]) if match.group(3) else 0
+                        total_seconds = hours * 3600 + minutes * 60 + seconds
+
+                        # 영상 길이가 60초를 넘을 때
+                        if total_seconds > 60:
+                            card = {
+                                'title': video_title,
+                                'description': 'YouTube Video',
+                                'imageUrl': video_thumbnail,
+                                'link': {
+                                    'web': f'https://www.youtube.com/watch?v={video_id}'
+                                }
+                            }
+                            cards.append(card)
+
+                    if cards:
+                        res = {
+                            "version": "2.0",
+                            "template": {
+                                "outputs": [
+                                    {
+                                        "listCard": {
+                                            "header": {
+                                                "title": f"\"{food} 레시피\" 검색 결과"
+                                            },
+                                            "items": cards
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    else:
+                        res = {
+                            "version": "2.0",
+                            "template": {
+                                "outputs": [
+                                    {
+                                        "simpleText": {
+                                            "text": "검색 결과가 없습니다."
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    food = None
+                    return jsonify(res)
+                else:
+                    food = None
+                    res = {
+                        "version": "2.0",
+                        "template": {
+                            "outputs": [
+                                {
+                                    "simpleText": {
+                                        "text": "검색 결과가 없습니다."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                    return jsonify(res)
+            else:
+                food = None
+                res = {
+                    "version": "2.0",
+                    "template": {
+                        "outputs": [
+                            {
+                                "simpleText": {
+                                    "text": "검색 결과가 없습니다."
+                                }
+                            }
+                        ]
+                    }
+                }
+                return jsonify(res)
+        except Exception as e:
+            print('검색엔진 호출 중 오류:', e)
+            food = None
+            res = {
+                "version": "2.0",
+                "template": {
+                    "outputs": [
+                        {
+                            "simpleText": {
+                                "text": "검색엔진 호출 중 오류가 발생했습니다."
+                            }
+                        }
+                    ]
+                }
+            }
+            return jsonify(res), 500
+
+    else:
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": "잘못된 요청입니다."
+                        }
+                    }
+                ]
+            }
+        }
+        return jsonify(res)
+
+
+def removeTags(text):  # html 태그 안보이게
+    return text.replace('<b>', '').replace('</b>', '')
+
+# 블로그로 레시피 검색
+@application.route("/search_blog", methods=["POST"])
+def searchBlog():
+    global food
+
+    if food is None:  # 채팅에 바로 '블로그로 검색'을 입력했을 경우
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": "음식 이름이 설정되지 않았습니다. 음식 이름을 먼저 입력하세요"
+                        }
+                    }
+                ]
+            }
+        }
+        return jsonify(res)
+
+    elif food:
+        naver_client_id = '2lFtfcZROrxKJdHNH3f6'
+        naver_client_secret = 'smeFY7Nwci'
+        try:
+            headers = {
+                'X-Naver-Client-Id': naver_client_id,
+                'X-Naver-Client-Secret': naver_client_secret
+            }
+            response = requests.get('https://openapi.naver.com/v1/search/blog.json', headers=headers, params={
+                'query': f"{food} 레시피"
+            })
+            search_results = response.json()['items']
+            if search_results:
+                cards = []
+                for item in search_results:
+                    blog_title = removeTags(item['title'])
+                    blog_link = item['link']
+
+                    card = {
+                        'title': blog_title,
+                        'description': 'Naver Blog',
+                        'link': {
+                            'web': blog_link
+                        }
+                    }
+                    cards.append(card)
+
+                res = {
+                    "version": "2.0",
+                    "template": {
+                        "outputs": [
+                            {
+                                "listCard": {
+                                    "header": {
+                                        "title": f"\"{food} 레시피\" 네이버 블로그 검색 결과"
+                                    },
+                                    "items": cards
+                                }
+                            }
+                        ]
+                    }
+                }
+                food = None
+                return jsonify(res)
+
+            else:
+                food = None
+                res = {
+                    "version": "2.0",
+                    "template": {
+                        "outputs": [
+                            {
+                                "simpleText": {
+                                    "text": "검색 결과가 없습니다."
+                                }
+                            }
+                        ]
+                    }
+                }
+                return jsonify(res)
+
+        except Exception as e:
+            print('검색엔진 호출 중 오류:', e)
+            food = None
+            res = {
+                "version": "2.0",
+                "template": {
+                    "outputs": [
+                        {
+                            "simpleText": {
+                                "text": "검색엔진 호출 중 오류가 발생했습니다."
+                            }
+                        }
+                    ]
+                }
+            }
+            return jsonify(res), 500
+
+    else:
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": "잘못된 요청입니다."
+                        }
+                    }
+                ]
+            }
+        }
+        return jsonify(res)
+
+# 추천
+@application.route("/recommend", methods=["POST"])
+def handle_request1():
+
+    if request.path == "/recommend":
+        message_text = "음식 분류를 선택해주세요."
+        quick_replies = [
+            {"messageText": "한식", "action": "message", "label": "한식"},
+            {"messageText": "중식", "action": "message", "label": "중식"},
+            {"messageText": "일식", "action": "message", "label": "일식"},
+            {"messageText": "양식", "action": "message", "label": "양식"},
+            {"messageText": "상관없음", "action": "message", "label": "상관없음"}
+        ]
+
+        res = {
+            "version": "2.0",
+            "template": {
+                "outputs": [
+                    {
+                        "simpleText": {
+                            "text": message_text
+                        }
+                    }
+                ],
+                "quickReplies": quick_replies
+            }
+        }
+        return jsonify(res)
+    else:
+        return jsonify({"error": "Invalid input for recommendation"})
+
+# 한식 추천
+@application.route("/recommend_korea", methods=["POST"])
+def handle_request2():
+    ran = random.randint(0, 4)
+
+    youtubeUrl = youtube.korea(ran)
+    blogUrl = blog.korea(ran)
+    getMenu = menu.korea(ran)
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": f"{getMenu}을(를) 추천드립니다.",
+                        "buttons": [
+                            {
+                                "action": "webLink",
+                                "label": "유튜브로 레시피 검색",
+                                "webLinkUrl": youtubeUrl
+                            },
+                            {
+                                "action": "webLink",
+                                "label": "블로그로 레시피 검색",
+                                "webLinkUrl": blogUrl
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 중식 추천
+@application.route("/recommend_china", methods=["POST"])
+def handle_request3():
+    ran = random.randint(0, 4)
+
+    youtubeUrl = youtube.china(ran)
+    blogUrl = blog.china(ran)
+    getMenu = menu.china(ran)
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": f"{getMenu}을(를) 추천드립니다.",
+                        "buttons": [
+                            {
+                                "action": "webLink",
+                                "label": "유튜브로 레시피 검색",
+                                "webLinkUrl": youtubeUrl
+                            },
+                            {
+                                "action": "webLink",
+                                "label": "블로그로 레시피 검색",
+                                "webLinkUrl": blogUrl
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 일식 추천
+@application.route("/recommend_japan", methods=["POST"])
+def handle_request4():
+    ran = random.randint(0, 4)
+
+    youtubeUrl = youtube.japan(ran)
+    blogUrl = blog.japan(ran)
+    getMenu = menu.japan(ran)
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": f"{getMenu}을(를) 추천드립니다.",
+                        "buttons": [
+                            {
+                                "action": "webLink",
+                                "label": "유튜브로 레시피 검색",
+                                "webLinkUrl": youtubeUrl
+                            },
+                            {
+                                "action": "webLink",
+                                "label": "블로그로 레시피 검색",
+                                "webLinkUrl": blogUrl
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 양식 추천
+@application.route("/recommend_yangsik", methods=["POST"])
+def handle_request5():
+    ran = random.randint(0, 4)
+
+    youtubeUrl = youtube.yangsik(ran)
+    blogUrl = blog.yangsik(ran)
+    getMenu = menu.yangsik(ran)
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": f"{getMenu}을(를) 추천드립니다.",
+                        "buttons": [
+                            {
+                                "action": "webLink",
+                                "label": "유튜브로 레시피 검색",
+                                "webLinkUrl": youtubeUrl
+                            },
+                            {
+                                "action": "webLink",
+                                "label": "블로그로 레시피 검색",
+                                "webLinkUrl": blogUrl
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+# 상관없음 추천
+@application.route("/recommend_everything", methods=["POST"])
+def handle_request6():
+    ran = random.randint(0, 19)
+
+    youtubeUrl = youtube.everything(ran)
+    blogUrl = blog.everything(ran)
+    getMenu = menu.everything(ran)
+    res = {
+        "version": "2.0",
+        "template": {
+            "outputs": [
+                {
+                    "basicCard": {
+                        "title": f"{getMenu}을(를) 추천드립니다.",
+                        "buttons": [
+                            {
+                                "action": "webLink",
+                                "label": "유튜브로 레시피 검색",
+                                "webLinkUrl": youtubeUrl
+                            },
+                            {
+                                "action": "webLink",
+                                "label": "블로그로 레시피 검색",
+                                "webLinkUrl": blogUrl
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+    return jsonify(res)
+
+
+if __name__ == "__main__":
+    application.run(host='0.0.0.0', port=80)

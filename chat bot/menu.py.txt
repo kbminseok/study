@@ -1,0 +1,74 @@
+
+
+class MENU:
+    def __init__(self):
+        return None
+
+    def korea(self, ran):
+        kFood = [
+            '김치찌개',
+            '된장찌개',
+            '미역국',
+            '떡볶이',
+            '김치볶음밥'
+        ]
+        return kFood[ran]
+
+    def china(self, ran):
+        cFood = [
+            '짜장면',
+            '짬뽕',
+            '탕수육',
+            '양장피',
+            '마파두부'
+        ]
+        return cFood[ran]
+
+    def japan(self, ran):
+        jFood = [
+            '야끼소바',
+            '라멘',
+            '오꼬노미야끼',
+            '우동',
+            '규동'
+        ]
+        return jFood[ran]
+
+    def yangsik(self, ran):
+        eFood = [
+            '피자',
+            '스테이크',
+            '파스타',
+            '햄버거',
+            '샐러드'
+        ]
+        return eFood[ran]
+
+    def everything(self, ran):
+        allFood = [
+            # 한식
+            '김치찌개',
+            '된장찌개',
+            '미역국',
+            '떡볶이',
+            '김치볶음밥',
+            # 중식
+            '짜장면',
+            '짬뽕',
+            '탕수육',
+            '양장피',
+            '마파두부',
+            # 일식
+            '야끼소바',
+            '라멘',
+            '오꼬노미야끼',
+            '우동',
+            '규동',
+            # 양식
+            '피자',
+            '스테이크',
+            '파스타',
+            '햄버거',
+            '샐러드'
+        ]
+        return allFood[ran]
