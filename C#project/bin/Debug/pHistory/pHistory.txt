@@ -1,0 +1,584 @@
+[2024-06-14 09:41:12.338]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 09:41:13.556]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 09:45:31.112]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 09:46:03.314]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 09:46:55.527]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 09:59:51.029]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:03:28.892]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:04:29.553]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:05:41.639]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:08:40.262]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:11:11.100]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:12:34.301]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:14:22.085]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:15:16.494]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:15:32.366]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:17:17.961]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:18:02.126]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:19:13.058]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:23:00.672]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:25:24.098]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:26:52.151]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:28:31.161]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:28:32.348]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:37:24.047]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:38:48.376]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:38:49.485]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:39:49.259]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:40:03.787]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:47:01.755]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 10:47:02.864]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:00:49.553]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:00:50.943]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:01:11.392]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:13:46.239]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:13:47.363]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:14:40.226]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:19:09.652]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:19:10.808]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:28:40.035]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:33:41.527]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:36:16.563]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:36:17.672]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:40:30.765]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:40:32.077]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:41:14.349]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:41:15.458]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:41:16.786]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:41:30.220]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:41:31.345]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:42:50.146]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:42:51.271]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:43:02.378]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:43:03.487]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:44:12.902]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:44:14.854]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:46:47.901]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:47:07.975]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:48:31.566]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:48:32.691]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:50:20.159]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:50:44.509]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:51:21.782]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:51:39.653]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:53:28.560]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:53:29.685]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:53:45.041]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:53:46.165]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:54:21.659]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 11:54:22.784]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:02:22.143]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:03:09.476]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:03:24.800]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:03:45.186]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:14:08.115]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:14:09.474]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:14:45.418]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:14:46.855]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:15:10.959]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:16:06.847]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:16:08.580]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:17:33.239]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:17:35.091]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:22:10.958]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:22:12.806]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:22:27.333]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:23:08.107]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:27:02.081]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:27:14.265]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:28:50.336]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:28:52.054]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:29:19.773]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:29:21.476]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:32:30.194]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:33:34.804]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:34:41.381]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:34:43.083]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:36:33.069]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:38:27.313]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:38:41.732]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:39:34.096]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:39:51.530]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:39:53.217]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:42:01.530]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-14 12:42:03.232]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:15:48.754]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:15:57.205]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:18:15.368]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:33:43.795]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:35:30.867]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:41:41.018]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:41:42.721]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:41:54.531]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:42:12.698]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:42:18.275]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:42:27.945]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:43:29.523]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:43:31.194]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:43:32.944]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:43:45.785]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:43:47.487]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:45:07.310]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:45:09.153]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:45:24.915]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:45:32.194]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:45:37.052]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:46:05.936]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:46:07.639]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:46:13.435]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:46:30.821]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:46:43.693]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:47:17.743]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:47:36.124]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:47:37.842]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:48:36.953]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:48:38.656]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:49:03.588]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:49:05.290]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:49:38.782]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:49:40.501]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:49:47.390]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:50:28.255]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:50:55.889]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:51:03.544]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:55:38.524]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:55:40.305]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37
+[2024-06-17 09:56:03.300]select   위치: System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   위치: System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   위치: pasteurizer.DBHelper.connectDB() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 25
+   위치: pasteurizer.DBHelper.selectQuery() 파일 D:\cshap\pasteurizer\pasteurizer\DBHelper.cs:줄 37

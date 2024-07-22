@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B87948A2-BA13-4104-B4D9-A8EBDEA614F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pasteurizer</RootNamespace>
+    <AssemblyName>pasteurizer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CsvDataHandler.cs" />
+    <Compile Include="DataBaseManager.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify.Designer.cs">
+      <DependentUpon>Modify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert.Designer.cs">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Month_Bad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Month_Bad.Designer.cs">
+      <DependentUpon>Month_Bad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Time_Bad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Time_Bad.Designer.cs">
+      <DependentUpon>Time_Bad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="status.Designer.cs">
+      <DependentUpon>status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="temperature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="temperature.Designer.cs">
+      <DependentUpon>temperature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pasteurizer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify.resx">
+      <DependentUpon>Modify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert.resx">
+      <DependentUpon>Insert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Month_Bad.resx">
+      <DependentUpon>Month_Bad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Time_Bad.resx">
+      <DependentUpon>Time_Bad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="status.resx">
+      <DependentUpon>status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="temperature.resx">
+      <DependentUpon>temperature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
